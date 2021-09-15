@@ -8,11 +8,38 @@ li a{
 }
 
 .jumbotron{
-    background-color: rgb(50, 50, 50);
+    background-color: black;
 }
 
 #self-Portrait{
     width: 400px;
     height: 400px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+
+#intro{
+    color: white;
+    font-weight: lighter;
+}
+
+#name{
+    color: #00FFFF;
+    font-weight: lighter;
+}
+
+#monke{
+    color: rgb(75, 75, 75);
+}
+
+.main{
+    background-color: black;
+}
+
+.about-me{
+    margin-top: 50px !important;
+}
+
+#about-title{
+    color: white;
+    font-weight: lighter;
 }
