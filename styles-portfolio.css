@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .navbar{
     background-color: black;
 }
@@ -42,9 +46,7 @@ li a{
 #about-title{
     color: white;
     font-weight: lighter;
-    font-size: 110%;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 108%;
 }
 
 .about-cyan-text{
@@ -58,7 +60,7 @@ li a{
 }
 
 #resume-link{
-    margin-top: 40px;
+    margin-top: 45px;
     
 }
 
@@ -67,5 +69,22 @@ li a{
     text-decoration: underline;
     text-underline-offset: 7px;
     text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
+#contact{
+    margin-top: 200px !important;
+}
+
+#contact-links{
+    margin-top: 50px;
+    word-spacing: 30px;
+}
+
+#contact-links a{
+    color: #00FFFF;
+    text-decoration: none;
+    /* text-underline-offset: 7px;
+    text-decoration-thickness: 3px; */
     font-style: italic;
 }
