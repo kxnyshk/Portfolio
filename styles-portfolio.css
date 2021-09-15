@@ -17,17 +17,17 @@ li a{
     margin-top: 50px;
 }
 
-#intro{
+.white-text{
     color: white;
     font-weight: lighter;
 }
 
-#name{
+.cyan-text{
     color: #00FFFF;
     font-weight: lighter;
 }
 
-#monke{
+.monke{
     color: rgb(75, 75, 75);
 }
 
@@ -45,12 +45,27 @@ li a{
     font-size: 110%;
     margin-left: 50px;
     margin-right: 50px;
-    word-spacing: 2px;
 }
 
-.cyan-text{
+.about-cyan-text{
     color: #00FFFF;
     font-weight: lighter;
     font-size: 110%;
-    word-spacing: 2px;
+}
+
+#resume{
+    margin-top: 200px !important;
+}
+
+#resume-link{
+    margin-top: 40px;
+    
+}
+
+#resume-link a{
+    color: #00FFFF;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
 }
