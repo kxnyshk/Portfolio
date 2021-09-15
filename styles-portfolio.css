@@ -6,3 +6,13 @@ li a{
     color: #00FFFF !important;
     text-decoration: none !important;
 }
+
+.jumbotron{
+    background-color: rgb(50, 50, 50);
+}
+
+#self-Portrait{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+}
