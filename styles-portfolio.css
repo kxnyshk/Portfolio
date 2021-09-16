@@ -46,7 +46,7 @@ li a{
 #about-title{
     color: white;
     font-weight: lighter;
-    font-size: 108%;
+    font-size: 105%;
 }
 
 .about-cyan-text{
@@ -87,4 +87,27 @@ li a{
     /* text-underline-offset: 7px;
     text-decoration-thickness: 3px; */
     font-style: italic;
+}
+
+#contact-links a:hover{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+
+#footer{
+    margin-top: 200px;
+}
+
+#footer-p{
+    font-size: 70%;
+    color: rgb(50, 50, 50);
+}
+
+#footer-p a{
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 1px;
+    font-style: italic;
+    color: rgb(50, 50, 50);
 }
