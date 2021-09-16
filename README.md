@@ -1,7 +1,7 @@
 This is a front-end webDev project for my course training in "Frontend Frameworks: Bootstrap 4" from Hong Kong University, via Coursera.
 It showcases my portfolio in a very minimalistic styled webpage.
 
-The technologies used:-
+Technologies used:-
 HTML 5, CSS 3. 
 
 Front-end framwroks used:-
