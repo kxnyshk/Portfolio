@@ -1,19 +1,19 @@
 This is a front-end webDev project for my course training in "Frontend Frameworks: Bootstrap 4" from Hong Kong University, via Coursera.
 It showcases my portfolio in a very minimalistic styled webpage.
 
-The technologies used are :-
+The technologies used:-
 HTML 5, CSS 3. 
 
-Front-end framwroks used are :-
+Front-end framwroks used:-
 Bootstrap 4.
 
-Version controlling is done via :-
+Version controlling done via:-
 Git & Github.
 
-Illustration is done via :-
+Illustration done via:-
 Adobe Illustrator.
 
-IDE used is :-
+IDE used:-
 VS Code v1.60
 
 
