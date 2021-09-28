@@ -5,11 +5,13 @@ html{
 
 .navbar{
     background-color: black;
+    padding-top: 15px;
 }
 
 li a{
     color: #00FFFF !important;
     text-decoration: none !important;
+    font-size: 80% !important;
 }
 
 li a:hover{
@@ -17,6 +19,7 @@ li a:hover{
     text-decoration: underline !important;
     text-underline-offset: 7px;
     text-decoration-thickness: 3px;
+    /* font: 10% !important; */
 
 }
 
@@ -25,9 +28,11 @@ li a:hover{
 }
 
 #self-Portrait{
-    width: 345px;
+    width: 250px;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 40px;
+    margin-bottom: -20px;
+    margin-right: -20px;
 }
 
 .white-text{
