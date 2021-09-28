@@ -1,17 +1,18 @@
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: rgb(25, 25, 25);;
 }
 
 .navbar{
-    background-color: black;
+    background-color: rgb(25, 25, 25);
     padding-top: 15px;
 }
 
 li a{
     color: #00FFFF !important;
     text-decoration: none !important;
-    font-size: 80% !important;
+    font-size: 85% !important;
+    font-weight: lighter;
 }
 
 li a:hover{
@@ -19,20 +20,21 @@ li a:hover{
     text-decoration: underline !important;
     text-underline-offset: 7px;
     text-decoration-thickness: 3px;
-    /* font: 10% !important; */
 
 }
 
 .jumbotron{
-    background-color: black;
+    background-color: rgb(25, 25, 25);
 }
 
 #self-Portrait{
     width: 250px;
     height: 400px;
     margin-top: 40px;
-    margin-bottom: -20px;
-    margin-right: -20px;
+}
+
+h1{
+    font-size: 125%;
 }
 
 .white-text{
@@ -46,7 +48,10 @@ li a:hover{
 }
 
 .monke{
-    color: rgb(75, 75, 75);
+    color: rgb(125, 125, 125);
+    font-size: 75%;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .main{
@@ -54,13 +59,13 @@ li a:hover{
 }
 
 .about-me{
-    margin-top: 50px !important;
+    margin-top: 60px !important;
 }
 
 #about-title{
     color: white;
     font-weight: lighter;
-    font-size: 105%;
+    font-size: 95%;
 }
 
 .about-cyan-text{
@@ -74,7 +79,7 @@ li a:hover{
 }
 
 #resume-link{
-    margin-top: 45px;
+    margin-top: 75px;
     
 }
 
@@ -118,12 +123,12 @@ li a:hover{
 }
 
 #footer{
-    margin-top: 200px;
+    margin-top: 275px;
 }
 
 #footer-p{
     font-size: 70%;
-    color: rgb(50, 50, 50);
+    color: rgb(75, 75, 75);
 }
 
 #footer-p a{
@@ -131,7 +136,7 @@ li a:hover{
     text-underline-offset: 2px;
     text-decoration-thickness: 1px;
     /* font-style: italic; */
-    color: rgb(50, 50, 50);
+    color: rgb(75, 75, 75);
 }
 
 #footer-p a:hover{
