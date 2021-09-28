@@ -4,13 +4,13 @@ It showcases my portfolio in a very minimalistic styled webpage.
 Technologies used:-
 HTML 5, CSS 3. 
 
-Front-end framwroks used:-
+Framwroks used:-
 Bootstrap 4.
 
-Version controlling done via:-
+Version controlling via:-
 Git & Github.
 
-Illustration done via:-
+Illustration made in:-
 Adobe Illustrator.
 
 IDE used:-
