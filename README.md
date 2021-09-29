@@ -16,6 +16,9 @@ Adobe Illustrator.
 IDE used:-
 VS Code v1.60
 
+Hosting via:-
+https://www.netlify.com/
+
 
 Thanks,
 Kanishk Bhadauria
