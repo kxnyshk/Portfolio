@@ -99,6 +99,27 @@ h1{
     font-style: italic;
 }
 
+#project-link{
+    margin-top: 50px;
+    
+}
+
+#project-link a{
+    color: #00FFFF;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
+#project-link a:hover{
+    color: #00FF66;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
 #contact{
     margin-top: 200px !important;
 }
