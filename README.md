@@ -1,3 +1,5 @@
+# Portfolio
+
 This is a front-end webDev project for my course training in "Frontend Frameworks: Bootstrap 4" from Hong Kong University, via Coursera.
 It showcases my portfolio in a very minimalistic styled webpage.
 
@@ -15,6 +17,9 @@ Adobe Illustrator.
 
 IDE used:-
 VS Code v1.60
+
+Hosting via:-
+https://www.netlify.com/
 
 
 Thanks,
