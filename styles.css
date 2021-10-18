@@ -1,10 +1,10 @@
 html{
     scroll-behavior: smooth;
-    background-color: rgb(25, 25, 25);;
+    background-color: rgb(30, 30, 30);
 }
 
 .navbar{
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(30, 30, 30);
     padding-top: 15px;
 }
 
@@ -24,14 +24,26 @@ li a:hover{
 }
 
 .jumbotron{
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(30, 30, 30);
 }
 
+/* IMAGES / MEDIA SECTION BELOW*/
 #self-Portrait{
     width: 250px;
     height: 400px;
     margin-top: 40px;
 }
+
+#profile{
+    height: 215px;
+    width: 275px;
+}
+
+#calling{
+    height: 240px;
+    width: 265px;
+}
+/* IMAGES / MEDIA SECTION ABOVE*/
 
 h1{
     font-size: 125%;
@@ -54,18 +66,31 @@ h1{
     margin-right: 40px;
 }
 
-.main{
-    background-color: black;
+.monke-md{
+    color: rgb(125, 125, 125);
+    font-size: 75%;
+    margin-top: 10px;
 }
 
 .about-me{
     margin-top: 60px !important;
 }
 
+#about-me-md{
+    margin-top: -60px !important;
+}
+
 #about-title{
     color: white;
     font-weight: lighter;
     font-size: 95%;
+}
+
+#about-title-lg{
+    color: white;
+    font-weight: lighter;
+    font-size: 95%;
+    padding-top: 340px;
 }
 
 .about-cyan-text{
@@ -78,6 +103,7 @@ h1{
     margin-top: 200px !important;
 }
 
+/* FOR SM SCREEN AND BELOW */
 #resume-link{
     margin-top: 75px;
     
@@ -119,7 +145,58 @@ h1{
     text-decoration-thickness: 3px;
     font-style: italic;
 }
+/*            ^            */
+/*            |            */
+/* FOR SM SCREEN AND BELOW */
 
+/* FOR MD SCREEN AND ABOVE */
+
+#resume-link-md{
+    margin-top: 75px;
+    
+}
+
+#resume-link-md a{
+    color: #00ffaa;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
+#resume-link-md a:hover{
+    color: #00FF66;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
+#project-link-md{
+    margin-top: 50px;
+    
+}
+
+#project-link-md a{
+    color: #00ffaa;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+
+#project-link-md a:hover{
+    color: #00FF66;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+    font-style: italic;
+}
+/*            ^            */
+/*            |            */
+/* FOR MD SCREEN AND ABOVE */
+
+/* FOR SM SCREEN AND BELOW */
 #contact{
     margin-top: 200px !important;
 }
@@ -132,8 +209,6 @@ h1{
 #contact-links a{
     color: #00FFFF;
     text-decoration: none;
-    /* text-underline-offset: 7px;
-    text-decoration-thickness: 3px; */
     font-style: italic;
 }
 
@@ -142,6 +217,29 @@ h1{
     text-underline-offset: 7px;
     text-decoration-thickness: 3px;
 }
+/*            ^            */
+/*            |            */
+/* FOR SM SCREEN AND BELOW */
+
+/* FOR MD SCREEN AND ABOVE */
+#contact-links-md{
+    margin-top: 60px !important;
+}
+
+#contact-links-md a{
+    color: #00FFFF;
+    text-decoration: none;
+    font-style: italic;
+}
+
+#contact-links-md a:hover{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+/*            ^            */
+/*            |            */
+/* FOR MD SCREEN AND ABOVE */
 
 #footer{
     margin-top: 275px;
