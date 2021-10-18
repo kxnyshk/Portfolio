@@ -12,6 +12,9 @@
     <!-- TITLE -->
     <title>Kanishk Bhadauria | Portfolio</title>
 
+    <!--FONT AWESOME ICONS-->
+    <script src="https://kit.fontawesome.com/0def4badfe.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
@@ -40,13 +43,55 @@
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 justify-content-center align-items-center text-center">
+                <div class="col-12 col-md-6 justify-content-center align-items-center text-center">
                     <img id="self-Portrait" src="./static/selfPortraitFrame.svg">
+                </div>
+
+                <!-- FOR MD SCREEN AND ABOVE-->
+                <span class="col-md-6 mx-auto d-none d-md-block">
+                    <h1 id="about-title-lg">
+                        I am a student of 
+                        <span class="about-cyan-text">
+                            Computer Science Engineering,
+                        </span>
+                        <br>
+                        currently studying in the 3rd uni year.
+
+                        <br><br>
+
+                        Exploring my ways through this
+                        <span class="about-cyan-text">
+                            Cyberpunk Matrix
+                        </span>
+                        <br>
+                        of programming and designing.
+
+                        <br><br>
+                        <span class="about-cyan-text">
+                            ___________________________________________________________________
+                        </span>
+                    </h1>
+                </span>
+            </div>
+
+            <div class="row" id="about-me-md">
+                <div class="col-12 col-md-6 d-none d-md-block justify-content-center align-items-center text-center">
+                    <h1 class="white-text">
+                        Hi! I am 
+                            <span class="cyan-text">
+                                Kanishk
+                            </span>
+                    </h1>
+
+                    <p class="monke">
+                        🦍 Monke is glad you landed up here!
+                    </p>
                 </div>
             </div>
 
+            <!-- FOR SM SCREEN AND LOWER-->
             <div class="row"  id="about-me">
-                <div class="col-12 justify-content-center align-items-center text-center">
+                <div class="col-12 col-md-6 d-md-none justify-content-center align-items-center text-center">
                     <h1 class="white-text">
                         Hi! I am 
                             <span class="cyan-text">
@@ -61,7 +106,7 @@
             </div>
 
             <div class="row">
-                <div class="about-me col-12 col-sm-6 mx-auto justify-content-center align-items-center text-center">
+                <div class="about-me col-12 d-md-none mx-auto justify-content-center align-items-center text-center">
                     <h1 id="about-title">
                         I am a student of 
                         <br>
@@ -83,7 +128,56 @@
             </div>
 
             <div class="row" id="resume">
-                <div class="col-12 justify-content-center align-items-center text-center">
+                <!-- FOR MD SCREEN AND ABOVE-->
+                <div class="col-md-6 d-none d-md-block mx-auto justify-content-center align-items-center text-center">
+                    <img id="profile" src="./static/undraw_Profile_re_4a55.svg">
+                </div>
+                
+                <div class="col-12 col-md-6 d-none d-md-block">
+                    <h1 class="white-text">
+                        <span class="cyan-text">
+                            Resume
+                        </span>
+                        &
+                        <span class="cyan-text">
+                            Projects
+                        </span>
+                    </h1>
+
+                    <p class="monke-md">
+                        🦍 Monke wants you to have a look at this sacred human scroll
+                    </p>
+
+                    <p id="resume-link-md">
+                        <a href="static/Kanishk-Resume.pdf#zoom=80" target="_blank">
+                            Résumé
+                        </a>
+
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;
+                        <span class="cyan-text">
+                            |
+                        </span>
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;
+
+                        <span class = "project-link-md">
+                            <a href="https://github.com/kxnyshk?tab=repositories" target="_blank">
+                                Projects
+                            </a>
+                        </span>
+                    </p>
+
+                    <br>
+                    <span class="about-cyan-text">
+                        _______________________________________________________________
+                    </span>
+                </div>
+
+                <!-- FOR SM SCREEN AND LOWER-->
+                <div class="col-12 d-md-none justify-content-center align-items-center text-center">
                     <h1 class="white-text">
                         My
                         <span class="cyan-text">
@@ -112,9 +206,58 @@
                     </p>
                 </div>
             </div>
-
+            
             <div class="row" id="contact">
-                <div class="col-12 justify-content-center align-items-center text-center">
+                <!-- FOR MD SCREEN AND ABOVE-->
+                <div class="col-md-6 d-none d-md-block mx-auto justify-content-center align-items-center text-center">
+                    <img id="calling" src="./static/undraw_phone_call_grmk.svg">
+                </div>
+
+                <div class="col-12 col-md-6 d-none d-md-block">
+                    <h1 class="white-text">
+                        Get in
+                        <span class="cyan-text">
+                            Touch?
+                        </span>
+                    </h1>
+
+                    <p class="monke-md">
+                        🦍 Monke suggests you to choose a version of Kanishk you wanna connect with
+                    </p>
+
+                    <p id="contact-links-md">
+                        <a href="https://www.twitter.com/kxnyshk" target="_aboutblank">
+                            <span>
+                                Twitter &emsp14;<i class="fab fa-twitter"></i>
+                            </span>
+                        </a>
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        
+
+                        <a href="https://www.github.com/kxnyshk" target="_aboutblank">
+                            <span>
+                                GitHub &emsp14;<i class="fab fa-github-alt"></i>
+                            </span>
+                        </a>
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+                        &emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;&emsp14;
+
+                        <a href="https://www.linkedin.com/in/kanishkbhadauria" target="_aboutblank">
+                            <span>
+                                LinkedIn &emsp14;<i class="fab fa-linkedin-in"></i>
+                            </span>
+                        </a>
+                    </p>
+
+                    <br>
+                    <span class="about-cyan-text">
+                        _______________________________________________________________
+                    </span>
+                </div>
+
+                <!-- FOR SM SCREEN AND LOWER-->
+                <div class="col-12 d-md-none justify-content-center align-items-center text-center">
                     <h1 class="white-text">
                         Get in
                         <span class="cyan-text">
