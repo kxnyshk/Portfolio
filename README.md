@@ -12,11 +12,14 @@ Bootstrap 4.
 Version controlling via:-
 Git & Github.
 
+IDE used:-
+VS Code v1.60
+
 Illustration made in:-
 Adobe Illustrator.
 
-IDE used:-
-VS Code v1.60
+SVG Media via:-
+https://Undraw.co/
 
 Hosting via:-
 https://www.netlify.com/
