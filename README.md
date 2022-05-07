@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio [deprecated / not in use]
 
 This is a front-end webDev project for my course training in "Frontend Frameworks: Bootstrap 4" from Hong Kong University, via Coursera.
 It showcases my portfolio in a very minimalistic styled webpage.
